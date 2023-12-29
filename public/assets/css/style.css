@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+}
+
+/* BUTTON */
+
+.btn-custom {
+    background-color: #804209;
+    border-color: #804209;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-custom2 {
+    background-color: #ffffff;
+    border-color: #804209;
+    width: 150px;
+    margin-left: 10px;
+    color: #804209;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-custom3 {
+    width: 70px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* HERO ARTIKEL */
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+    background-size: cover;
+}
+
+.hero1 {
+    font-weight: bolder;
+    color: #804209;
+}
+
+.hero2 {
+    font-weight: 600;
+    color: #263238;
+    line-height: 40px;
+}
+
+#hero-img img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 70px;
+}
+
+#hero-greeting {
+    margin-left: 100px;
+}
+
+/* JUDUL */
+
+.tab-quote {
+    border-left: 4px solid #7b372a;
+    font-size: 30px;
+    font-weight: 600;
+    color: #804209;
+    margin-bottom: 50px;
+}
+
+/* LOGIN */
+
+#hero-login img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* INPUT */
+
+.form-control::placeholder {
+    font-size: 14px;
+}
+
+/* COLOR */
+
+.custom-color {
+    color: #804209 !important;
+    font-weight: 500;
+}
+
+/* CARD ARTIKEL */
+
+.artikel-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.artikel-item img {
+    margin-right: 5px;
+}
+
+/* PAGINATION */
+
+.pagination-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-list li {
+    margin: 0 5px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+    color: #804209;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer .container {
+    text-align: center;
+}
